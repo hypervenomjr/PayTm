@@ -52,7 +52,7 @@ export const SendMoney = () => {
                                 Authorization: "Bearer " + localStorage.getItem("token")
                             }
                         })
-                        Navigate("/dashboard");
+                        Navigate("/Success");
                     }
                     catch(error){
                         console.error("Error initiating transfer", error);

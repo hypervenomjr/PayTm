@@ -6,7 +6,7 @@ import { Signup } from "./pages/Signup";
 import { Signin } from "./pages/Signin";
 import { Dashboard } from "./pages/Dashboard";
 import { SendMoney } from "./pages/SendMoney";
-
+import {PaymentSuccess} from "./pages/PaymentSuccess";
 
 
 function App() {
@@ -20,6 +20,8 @@ function App() {
         <Route path="/Signin" element ={<Signin/>} />
         <Route path="/Dashboard" element ={<Dashboard/>} />
         <Route path="/send" element ={<SendMoney/>} />
+        <Route path="/Success" element ={<PaymentSuccess/>} />
+
 
         </Routes>
         </BrowserRouter>
